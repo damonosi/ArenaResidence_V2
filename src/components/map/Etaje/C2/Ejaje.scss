@@ -1,0 +1,18 @@
+.map-container{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .map-container {
+  margin-top:5em;}
+}

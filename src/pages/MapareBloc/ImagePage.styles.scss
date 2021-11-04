@@ -1,0 +1,139 @@
+.containing {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+
+}
+
+.titlu {
+  align-self: center;
+  color: #89909d;
+  margin-bottom: 8vh;
+  
+  font-size: 5rem;
+  font-family: "Lucida Sans Regular", sans-serif;
+}
+
+.tite-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+
+
+.icon {
+  color: #89909d;
+  vertical-align: middle;
+  font-size: 4rem;
+  transition: transform 0.4s ease-out;
+  &:hover {
+    transform: translate(0, -5px);
+    cursor: pointer;
+    color: #47ea4e;
+  }
+}
+.icon-div {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.image-container {
+  display: flex;
+
+  width: 100%;
+}
+
+
+.pauza{
+  display:flex;
+  height:40px;
+  background-color: rgba(5, 146, 211, 0.8);
+  margin: 40px 440px 10px 440px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  h1{
+    color:white
+  }
+}
+
+.icon2 {
+  color: #89909d;
+  vertical-align: middle;
+  font-size: 4rem;
+  transition: transform 0.4s ease-out;
+  z-index: 100;
+  &:hover {
+    transform: translate(0, -5px);
+    cursor: pointer;
+    color: #47ea4e;
+  }
+}
+
+.icon-div2 {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.spinner {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.more-container{
+  display:flex;
+  padding:5em;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container {
+  position:relative;
+  
+  
+  display:flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  
+  padding:2em;
+}
+.section {
+  height: 90vh;
+  background-color: #282c34;
+}
+.page-title-holder::after {
+  display: none;
+}
+.page-title-holder {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+  .pauza{
+    width:100%;
+    margin:20px 0px 0px 0px;
+    h1{
+      font-size: 1.2rem;
+    }
+  }
+  .banner-container {
+    
+    h1{
+      font-size:1.7rem;
+    }
+  }
+  .more-container{
+ 
+  padding:1.5em;
+}
+}

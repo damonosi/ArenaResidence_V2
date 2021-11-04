@@ -1,0 +1,77 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top:5em;
+}
+.distance {
+  display: flex;
+  height: 4em;
+
+  width: 100vw;
+}
+.left-right-container {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  height: 50%;
+  padding: 50px;
+
+  h2 {
+    font-size: 3.8rem;
+    line-height: 1;
+    font-weight: 900;
+    color: black;
+  }
+}
+.right-contact {
+  width: 100%;
+  height: 20vh;
+}
+.social-cont {
+  padding: 1.5em;
+}
+.social-cont > a {
+  color: black;
+
+  font-size: 30px;
+  margin: 15px;
+
+  &:hover {
+    color: #c75a5a;
+    opacity: 0.6;
+  }
+}
+
+.frame-container {
+  margin-top: 5px;
+  padding: 100px;
+}
+@media only screen and (max-width: 700px) {
+  .left-right-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-contact {
+    width: unset;
+    padding: 15px;
+    h2 {
+      font-size: 2.8rem;
+    }
+  }
+  .right-contact {
+    display: none;
+  }
+  .frame-container {
+    margin-top: 5px;
+    padding: 0.5em;
+  }
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+.contain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8rem;
+
+}
+
+.produs {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	
+}
+.title-apartament{
+		text-align: center;
+	}
+	h1 {
+		font-size: 2rem;
+		color: rgb(80, 79, 79);
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+		color: #313131;
+	}
+	
+.fler {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 60vw;
+	padding: 3rem 2.5rem;
+	margin-bottom: 4rem;
+	background-color: rgba(236, 236, 236, 0.938);
+	box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+	button {
+	background-color: #2776b0;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 10px 10px 13px rgba(0,0,0,0.20);
+	
+	font-size: 1.2rem;
+	padding: 1rem 2rem;
+	&:hover {
+		color: #fdf9f9;
+		background-color: rgb(3, 134, 171);
+		transition: .3s;
+	}
+}
+}
+.info-apartament {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 500px;
+	padding-left: 2rem;
+	padding-right: 1rem;
+	
+	h4 {
+		font-size: 2rem;
+		color: rgb(80, 79, 79);
+	}
+	h8 {
+		font-size: 1.3rem;
+		text-align: left;
+		color: rgb(126, 123, 123);
+	}
+	p {
+		font-size: 1.3rem;
+		color: rgb(80, 79, 79);
+	}
+	
+}
+
+.button-container{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding:1em;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.firstt {
+	margin-top: 2.5rem;
+}
+
+
+.plan-detaliat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 60vw;
+		height: 100%;
+		
+	}
+	
+}
+@media only screen and (max-width: 1130px) {
+	.plan-detaliat {
+		width: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.button-container{
+		flex-direction: column;
+		margin-top: 1em;
+	}
+	.wapp-button{
+		margin-top: 1em;
+	}
+}
+
+
+@media only screen and (max-width: 995px) {
+	.apartament {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0;
+	}
+	.fler {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 80vw;
+		padding: 2rem;
+
+	}
+
+
+	
+	.plan-detaliat {
+		width: 100%;
+		
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.info-apartament {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+}
+
+@media only screen and (max-width: 425px) {
+	.fler {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 80vw;
+	}
+	.plan-detaliat {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90vw;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.contain {
+		padding-top: 6rem;
+	}
+	.info-apartament {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 0px;
+		width: 100%;
+		p {
+			text-align: center;
+			font-size: 1.3rem;
+			width: 100%;
+			
+		}
+		h4 {
+			font-size: 1.5rem;
+			
+		}
+		h8 {
+			font-size: 1.2rem;
+			width: 100%;
+			
+		}
+		
+	}
+	
+	
+	
+}

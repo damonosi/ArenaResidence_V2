@@ -324,6 +324,7 @@ const AlteProiecte = () => {
               </Responsive>
             </div>
           </div>
+
           <Responsive displayIn={["Laptop"]}>
             <ParallaxImage
               height={700}
@@ -415,6 +416,7 @@ const AlteProiecte = () => {
           </div>
         </div>
       </div>
+
       {isOpen && (
         <Lightbox
           mainSrc={images1[photoIndex]}

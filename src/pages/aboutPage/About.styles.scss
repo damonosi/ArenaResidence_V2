@@ -3,7 +3,7 @@
   align-items: row;
   height: 100%;
 figure{
-  background-color:#e6decb;
+  
   z-index:2;
 }
 }
@@ -21,7 +21,7 @@ figure{
   }
 }
 .half-left {
-  background-color:#e6decb;
+ 
   width: 100% !important;
   float: none;
   margin-right: auto !important;
@@ -30,12 +30,13 @@ figure{
   padding: 10rem;
   img{
     float: center;
-    background-color: #e1d1ae;
+    
     height:8rem;
   }
   h2 {
     text-align: left;
   }
+  p{background-color: #231f20f0;color:#AD974F}
 }
 .img-holder{
   display: flex;
@@ -65,7 +66,7 @@ figure{
 }
 .img-holder {
   img{
-    height:8rem;
+    height:18rem;
   }
 }
 .half-left{

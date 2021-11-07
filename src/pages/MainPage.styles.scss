@@ -8,6 +8,15 @@
   margin-top:5rem;
   
 }
+.parteneri-container{
+  display: flex;
+  position:relative;
+  padding:10px;
+  align-items: center;
+  justify-content: center;
+  z-index:10;
+  margin-top:15rem;
+}
 .spatiu{
   display:flex;
 
@@ -17,12 +26,7 @@
   
   margin-bottom:3rem;
 }
-.parteneri-container{
-  display: flex;
-  position:relative;
-  padding:10px;
-  z-index:1;
-}
+
 .main{
   margin:0rem !important;
 }
@@ -31,7 +35,7 @@
   height: 100%;
   width: 100%;
   position:relative;
-  background-color:rgba(34, 21, 21, 0.658)
+  
 }
   .downy{
     color:#ffaa00;
@@ -71,7 +75,7 @@
     top:0;
     border-radius: 5%;
     
-    background-color:#f3dba1;
+    background-color:#AD974F;
      box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.5); 
     width:40%;
     display:inline-block;
@@ -98,8 +102,6 @@
       bottom:0;
     }
   }
-  .member{
-    margin-top:4rem !important;
-  }
+
  
 }

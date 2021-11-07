@@ -1,7 +1,7 @@
 import React from "react";
 
-import RoundImage1 from "../../images/hol.jpg";
-import companyLogo from "../../images/logoCladire.png";
+import RoundImage1 from "../../images/hol.png";
+import companyLogo from "../../images/logoCladire2.png";
 import "./About.styles.scss";
 
 import ParallaxImage from "./../../components/Parallax/ParralaxImage";

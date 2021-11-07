@@ -37,10 +37,9 @@ const MainPage = () => {
             <AlteProiecte />
           </div>
         </section>
-      </div>
-
-      <div className="banner-container main">
-        <ParteneriPage />
+        <section className="parteneri-container">
+          <ParteneriPage />
+        </section>
       </div>
     </div>
   );

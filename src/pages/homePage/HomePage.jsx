@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
       <div id="home" className="section no-page-title">
         <div className="aligning">
-          <Link className="colored no-big" to="/scara">
+          <Link className="colored lat no-big" to="/scara">
             ALEGETI SCARA &rarr;
           </Link>
         </div>

@@ -47,9 +47,9 @@ const Header = () => {
               className="nav-links"
               activeClassName="active"
               onClick={handleClick}
-              to="/scara"
+              to="/proiecte"
             >
-              Apartamente
+              Proiecte Finalizate
             </NavLink>
           </li>
 

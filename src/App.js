@@ -10,6 +10,7 @@ import Footer from "./pages/footer/footerPage.jsx";
 import ContactPage from "./pages/ContactPage/ContactPage";
 
 import ParteneriPage from "./pages/Parteneri/ParteneriPage";
+import SelectionPage from "./pages/Proiecte/Proiecte.jsx";
 
 import ScaraC1 from "./pages/MapareBloc/C1";
 import ScaraC2 from "./pages/MapareBloc/C2";
@@ -64,6 +65,7 @@ function App() {
           <ErrorBoundary>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/home" component={MainPage} />
+            <Route exact path="/proiecte" component={SelectionPage} />
             <Route exact path="/scara" component={ImagePage} />
 
             <Route path="/scara/c1" component={ScaraC1} />
